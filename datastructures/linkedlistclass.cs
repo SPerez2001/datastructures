@@ -18,21 +18,18 @@ namespace datastructures
                 this.value = value;
             }
         }
-
-        public class linkedclass 
+        public static int printallnodes(node head)
         {
-            private node head;
-            public void printallnodes()
+            int count = 1;
+            node current = head;
+            Console.WriteLine("the number is " + current.value);
+            while (current.next != null)
             {
-                node current = head;
-                while (current != null)
-                {
-                    Console.WriteLine(current.value);
-                    current = current.next;
-                }
+                current = current.next;
+                Console.WriteLine("the number is " + current.value);
+                count += 1;
             }
+            return count;
         }
-
-        
     }
 }
