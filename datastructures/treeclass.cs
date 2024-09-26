@@ -73,6 +73,34 @@ namespace datastructures
                     }
                 }
             }
+            public void before(node1 root)
+            {
+                if (root != null)
+                {
+                    Console.Write(root.value + " ");
+                    before(root.left);
+                    before(root.right);
+                }
+            }
+            public void currently(node1 root)
+            {
+                if (root != null)
+                {
+                    currently(root.left);
+                    Console.Write(root.value + " ");
+                    currently(root.right);
+                }
+            }
+            public void after(node1 root)
+            {
+                if (root != null)
+                {
+                    after(root.left);
+                    after(root.right);
+                    Console.Write(root.value + " ");
+
+                }
+            }
         }
     }
 }

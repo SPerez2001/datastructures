@@ -45,3 +45,37 @@ using static datastructures.arraysclass;
 //{
 //    Console.Write(item + ", ");
 //}
+
+//treeclass.tree trees = new treeclass.tree();
+//trees.insert(39);
+//trees.insert(8);
+//trees.insert(45);
+//trees.insert(40);
+//trees.insert(52);
+//trees.insert(44);
+//trees.insert(53);
+//Console.WriteLine("Present Numbers: ");
+//trees.currently(trees.returntoroot());
+//Console.WriteLine(" ");
+//Console.WriteLine();
+//Console.WriteLine("Advance Numbers: ");
+//trees.before(trees.returntoroot());
+//Console.WriteLine(" ");
+//Console.WriteLine();
+//Console.WriteLine("After Numbers: ");
+//trees.after(trees.returntoroot());
+
+graphsclass graphs = new graphsclass(5);
+graphs.Addnum(0,1);
+graphs.Addnum(0,2);
+graphs.Addnum(1,2);
+graphs.Addnum(2,1);
+graphs.Addnum(2,4);
+graphs.Addnum(3,4);
+graphs.Addnum(4,4);
+graphs.PrintAdjancent();
+
+Console.WriteLine("Graphs 1 starting from Vertex 1:");
+graphs.graphss1(1);
+Console.WriteLine("Graphs 2 starting from Vertex 1:");
+graphs.graphss2(1);
