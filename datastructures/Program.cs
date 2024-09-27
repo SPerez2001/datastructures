@@ -65,17 +65,36 @@ using static datastructures.arraysclass;
 //Console.WriteLine("After Numbers: ");
 //trees.after(trees.returntoroot());
 
-graphsclass graphs = new graphsclass(5);
-graphs.Addnum(0,1);
-graphs.Addnum(0,2);
-graphs.Addnum(1,2);
-graphs.Addnum(2,1);
-graphs.Addnum(2,4);
-graphs.Addnum(3,4);
-graphs.Addnum(4,4);
-graphs.PrintAdjancent();
+//graphsclass graphs = new graphsclass(5);
+//graphs.Addnum(0,1);
+//graphs.Addnum(0,2);
+//graphs.Addnum(1,2);
+//graphs.Addnum(2,1);
+//graphs.Addnum(2,4);
+//graphs.Addnum(3,4);
+//graphs.Addnum(4,4);
+//graphs.PrintAdjancent();
 
-Console.WriteLine("Graphs 1 starting from Vertex 1:");
-graphs.graphss1(1);
-Console.WriteLine("Graphs 2 starting from Vertex 1:");
-graphs.graphss2(1);
+//Console.WriteLine("Graphs 1 starting from Vertex 1:");
+//graphs.graphss1(1);
+//Console.WriteLine("Graphs 2 starting from Vertex 1:");
+//graphs.graphss2(1);
+
+//hashingclass.HashTable hasht = new hashingclass.HashTable(15);
+//hasht.insert("Jane");
+//hasht.insert("maria");
+//hasht.insert("john");
+//hasht.insert("masayoshi");
+//hasht.insert("quarterjade");
+
+
+//heapsclass.node root = new heapsclass.node(45);
+//heapsclass.Max_heap heap = new heapsclass.Max_heap(root);
+//heap.insert(new heapsclass.node(23));
+//heap.insert(new heapsclass.node(8));
+//heap.insert(new heapsclass.node(15));
+
+//Console.WriteLine(" ");
+//heap.bfs_travers();
+
+
