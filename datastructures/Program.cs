@@ -97,4 +97,24 @@ using static datastructures.arraysclass;
 //Console.WriteLine(" ");
 //heap.bfs_travers();
 
+//sortclass.quicksortclass quick = new sortclass.quicksortclass();
 
+int[] arr = { 3, -2, 0, -1, 2, 4, 1 };
+//quick.QuickSort(arr ,0, 6);
+//quick.printal(arr);
+
+//sortclass.bubblesort bubl = new sortclass.bubblesort();
+//bubl.bubbles(arr);
+//bubl.printal(arr);
+
+//sortclass.selectionsortcl sel = new sortclass.selectionsortcl();
+//sel.selection(arr);
+//sel.printal(arr);
+
+//sortclass.mergesortcl mer = new sortclass.mergesortcl();
+//mer.mergesor(arr);
+//mer.printal(arr);
+
+sortclass.insertionsortcl ins = new sortclass.insertionsortcl();
+ins.insertion(arr);
+ins.printal(arr);
