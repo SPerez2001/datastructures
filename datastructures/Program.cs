@@ -99,7 +99,7 @@ using static datastructures.arraysclass;
 
 //sortclass.quicksortclass quick = new sortclass.quicksortclass();
 
-int[] arr = { 3, -2, 0, -1, 2, 4, 1 };
+//int[] arr = { 3, -2, 0, -1, 2, 4, 1 };
 //quick.QuickSort(arr ,0, 6);
 //quick.printal(arr);
 
@@ -115,6 +115,28 @@ int[] arr = { 3, -2, 0, -1, 2, 4, 1 };
 //mer.mergesor(arr);
 //mer.printal(arr);
 
-sortclass.insertionsortcl ins = new sortclass.insertionsortcl();
-ins.insertion(arr);
-ins.printal(arr);
+//sortclass.insertionsortcl ins = new sortclass.insertionsortcl();
+//ins.insertion(arr);
+//ins.printal(arr);
+
+//int num1 = -1;
+//int num = searchingalgo.linearclass.linearsearch(arr, num1);
+//searchingalgo.linearclass.printal(num);
+
+//int num = searchingalgo.binaryclass.binaryse(arr, num1);
+//searchingalgo.binaryclass.printal(num);
+
+//int[] array = { 30, 15, 10, 2, 1 };
+////int num = 78;
+////greedyalgo.greedyclas(array, num);
+
+//Console.WriteLine("Orifinal Array: " + string.Join(",", array));
+//divideandcon.mergesor(array, 0, array.Length-1);
+//Console.WriteLine("Sorted Array: " + string.Join(",", array));
+
+int[] arr = { 20, 25, 30, 40 };
+int num = 2;
+var comb = new List<List<int>>();
+backtrackingcl.combinationcl(arr, num, 0, new List<int>(), comb);
+backtrackingcl back = new backtrackingcl();
+back.printal(comb);
