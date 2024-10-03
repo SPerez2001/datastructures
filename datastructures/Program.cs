@@ -99,7 +99,7 @@ using static datastructures.arraysclass;
 
 //sortclass.quicksortclass quick = new sortclass.quicksortclass();
 
-//int[] arr = { 3, -2, 0, -1, 2, 4, 1 };
+int[] arr = { 3, -2, 0, -1, 2, 4, 1 };
 //quick.QuickSort(arr ,0, 6);
 //quick.printal(arr);
 
@@ -134,9 +134,23 @@ using static datastructures.arraysclass;
 //divideandcon.mergesor(array, 0, array.Length-1);
 //Console.WriteLine("Sorted Array: " + string.Join(",", array));
 
-int[] arr = { 20, 25, 30, 40 };
-int num = 2;
-var comb = new List<List<int>>();
-backtrackingcl.combinationcl(arr, num, 0, new List<int>(), comb);
-backtrackingcl back = new backtrackingcl();
-back.printal(comb);
+//int[] arr = { 20, 25, 30, 40 };
+int num = 25;
+//var comb = new List<List<int>>();
+//backtrackingcl.combinationcl(arr, num, 0, new List<int>(), comb);
+//backtrackingcl back = new backtrackingcl();
+//back.printal(comb);
+
+//int fd = spaceandtimecl.lineart.findnum(arr, num);
+//if (fd == 0)
+//{
+//    Console.WriteLine("Sorry but your number isnt found");
+//}
+//else
+//{
+//    Console.WriteLine("Your number has been found");
+//}
+
+//spaceandtimecl.quadrat quad = new spaceandtimecl.quadrat();
+//quad.bblsort(arr);
+//quad.printal(arr);
